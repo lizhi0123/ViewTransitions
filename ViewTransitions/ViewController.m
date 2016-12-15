@@ -95,6 +95,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden = YES;
 	
     // start off by using the front view (Palm trees)
     [self.view addSubview:self.frontView];
